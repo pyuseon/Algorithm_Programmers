@@ -22,6 +22,4 @@
 
  
 ``` java
-<!-- a부터 b까지 범위의 숫자들을 생성한다.  --> 
-int[] range = IntStream.rangeClosed(a, b).toArray();
 ```
