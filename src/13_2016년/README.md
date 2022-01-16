@@ -20,6 +20,24 @@
 
 ## 4. 추가 답안
 
- 
 ``` java
+<!-- 추가로 볼만한 답안 -->
+    class Solution {
+        public static String solution(int a, int b) {
+            return LocalDate.of(2016, a, b).getDayOfWeek().toString().substring(0,3);
+        }
+    }
+```
+
+
+
+## 5. 추가 답안
+
+``` java
+<!--  2016년 , a월, b일의 날짜를 반환한다.  -->
+LocalDate.of(2016, a, b)
+<!-- a라는 일자의 요일을 반환한다. ex) TUESDAY  -->
+a.getDayOfWeek()
+<!-- 문자열의 앞의 세자리만 슬라이싱한다.  -->
+toString().substring(0,3)
 ```
