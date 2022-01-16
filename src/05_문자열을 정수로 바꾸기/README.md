@@ -22,6 +22,3 @@ Integer.parseInt(s);
 <!-- s라는 문자열중 첫번째 글자를 반환한다.  --> 
  s.substring(0,1)
 ```
-
-## 참고블로그 
-https://knight76.tistory.com/entry/IntStream-LongStream%EC%9D%98-%EB%B2%94%EC%9C%84-range-rangeClose-%EC%B0%A8%EC%9D%B4-%EB%B0%8F-%EC%98%88%EC%A0%9C
