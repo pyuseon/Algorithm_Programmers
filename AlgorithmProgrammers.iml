@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/01_직사각형별찍기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/02_짝수와 홀수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/03_가운데 글자 가져오기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/04_두 정수 사이의 합" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/05_문자열을 정수로 바꾸기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/06_없는 숫자 더하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/07_음양더하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/08_평균구하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/09_핸드폰 번호 가리기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/10_행렬의덧셈" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/11_x만큼 간격이 있는" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/12_부족한 금액 계산하기" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/13_2016년" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/14_나누어 떨어지는 숫자 배열" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/15_내적" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/16_문자열 내 p와 y의 개수" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/34_모의고사" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

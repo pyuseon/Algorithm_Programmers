@@ -1,5 +1,5 @@
 import java.util.Arrays;
-//== 과 eaquals의 차이
+//== 과 equals의 차이
 //https://www.geeksforgeeks.org/difference-between-and-equals-method-in-java/
 
 public class Q16 {
