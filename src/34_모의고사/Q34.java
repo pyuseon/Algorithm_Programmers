@@ -13,7 +13,6 @@ public class Q34 {
 
             for (int i =0; i < answers.length; i++){
                 int supoja1Idx = i%supoja1.length;
-                System.out.println(supoja1Idx);
                 int supoja2Idx = i%supoja2.length;
                 int supoja3Idx = i%supoja3.length;
                 if (answers[i] == supoja1[supoja1Idx]){
