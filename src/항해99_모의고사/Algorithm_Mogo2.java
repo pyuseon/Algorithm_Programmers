@@ -42,6 +42,6 @@ public class Algorithm_Test2 {
     }
         public static void main(String[] args)  {
             Algorithm_Test2 method = new Algorithm_Test2();
-            System.out.println(solution(1, 18));
+            System.out.println(solution(11, 27));
         }
 }
