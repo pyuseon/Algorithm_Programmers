@@ -11,7 +11,7 @@
 // 지정입력값
 // 1    18  "4월 26일"
 
-public class Algorithm_Test2 {
+public class Algorithm_Mogo2 {
     public static String solution(int month, int day)  {
 //        월을 일자로 다 변환하기 위해서  totalDate 변수를 만들어줌
         int totalDate = 0;
@@ -41,7 +41,7 @@ public class Algorithm_Test2 {
         return (idx%12) + "월 " + targetDate + "일";
     }
         public static void main(String[] args)  {
-            Algorithm_Test2 method = new Algorithm_Test2();
+            Algorithm_Mogo2 method = new Algorithm_Mogo2();
             System.out.println(solution(11, 27));
         }
 }

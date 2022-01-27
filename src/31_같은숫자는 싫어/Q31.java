@@ -12,7 +12,6 @@ public class Q31 {
         return answerList;
     }
 
-
     public static void main(String[] args) {
         int [] test = {1,1,3,3,0,1,1};
         System.out.println(Q31.solution(test));

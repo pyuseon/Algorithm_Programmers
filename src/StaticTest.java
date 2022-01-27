@@ -1,35 +1,31 @@
-public class Student {
+public class StaticTest {
 
-    private static int serialNum = 1000; //static 변수
+    public static void main(String[] args) {
 
-    public String name; //이름
-    public int id; //학번
-    public int address; //주소
+        Static.all_sumf(); // 객체 생성 없이 호출이 가능
+        Static.all_sumf(); // 객체 생성 없이 호출이 가능
 
-    public Student(String name) {
-        this.id = serialNum;
-        this.name = name;
-        serialNum++;
-    }
+        Static st1 = new Static();
+        st1.each_sumf();
+        st1.all_sumf();
 
-    public static int getSerialNum() {
-        return serialNum;
-    }
-
-    public void showInfo() {
-        System.out.println("학번: " + id);
-        System.out.println("이름: " + name);
+        Static st2 = new Static();
+        st2.each_sumf();
+        st2.all_sumf();
     }
 }
 
+class Static {
+    private static int all_sum = 0;
+    private int each_sum = 0;
 
-class StudentTest {
-    public static void main(String[] args) {
+    public static void all_sumf () {
+        all_sum = all_sum + 1;
+        System.out.println("all_sum " + all_sum);
+    }
 
-        Student studentPark = new Student("Park");
-        Student studentLee = new Student("Lee");
-
-        studentPark.showInfo();
-        studentLee.showInfo();
+    public void each_sumf () {
+        each_sum = each_sum + 1;
+        System.out.println("each_sum " + each_sum);
     }
 }
