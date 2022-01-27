@@ -9,26 +9,11 @@ n이 양의 정수 x의 제곱이라면 x+1의 제곱을 리턴하고, n이 양�
 * n은 1이상, 50000000000000 이하인 양의 정수입니다.
 
 ## 3. 입출력 예시
-|n|return|
-|---|-----|
-|121|144|
-|3|-1|
-
-## 4. 다른 풀이 
-```java
-class Solution {
-  public long solution(long n) {
-      if (Math.pow((int)Math.sqrt(n), 2) == n) {
-            return (long) Math.pow(Math.sqrt(n) + 1, 2);
-        }
-        return -1;
-  }
-}
-```
-
-## 5. 사용함수
-* Math.sqrt(n) : n의 제곱근 구하기
-* Math.floor(n) : 소수점 밑의 자리 버리기
-* Math.pow(n, m) : n의 m제곱 구하기 
-* !Double.isInfinite(n) : n이 무한대 인지 판별 
+|기능|Method|url|반환
+|---|-----|---|-----|
+|게시물 생성|POST|/api/post|Post|
+|전체 게시물 조회|GET|/api/posts|List<Post>|
+|상세 게시물 조회|GET|/api/posts/{id}|Post|
+|게시물 업데이트|PUT|/api/posts/{id}||
+|게시물 삭제|DELETE|/api/posts/{id}|id|
 
